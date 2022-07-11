@@ -1,0 +1,22 @@
+{
+  "name": "internallibs/logger",
+  "description": "It handles logs",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Adrian Wild",
+      "email": "adrian668800@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "Logger": "src/"
+    },
+    "psr-4": {
+      "Logger\\": "src/Logger/"
+    }
+  },
+  "require": {
+
+  }
+}
